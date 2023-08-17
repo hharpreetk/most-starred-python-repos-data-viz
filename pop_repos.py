@@ -35,7 +35,9 @@ for repo_dict in repo_dicts:
 # Make visualization.
 title = "Most-Starred Python Projects on GitHub"
 labels = {'x': 'Repository', 'y': 'Stars'}
-fig = px.bar(x=repo_links, y=stars, title=title, labels=labels, hover_name=hover_texts, color_discrete_sequence=px.colors.qualitative.Dark24_r)
+fig = px.bar(x=repo_links, y=stars, title=title, labels=labels, hover_name=hover_texts)
+
+fig.update_traces(marker_color='Yellow', marker_opacity=0.6)
 
 fig.update_layout(title_font_size=28, xaxis_title_font_size=20,
 yaxis_title_font_size=20)
