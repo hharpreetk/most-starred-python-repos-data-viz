@@ -1,4 +1,4 @@
-# Most-Starred Python Projects on GitHub
+# [Most-Starred Python Projects on GitHub](https://hharpreetk.github.io/python-most-starred-repos-data-viz/)
 
 This script makes an API call to GitHub's API to retrieve information about the most-starred Python projects. It then visualizes the data using Plotly, showing the number of stars each project has received.
 
